@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@functions/*": [
+        "src/functions/*"
+      ],
+      "@db/*": [
+        "src/db/*"
+      ],
+      "@services": [
+        "src/services"
+      ],
+      "@utils/*": [
+        "src/utils/*"
+      ],
+      "@interfaces": [
+        "src/interfaces"
+      ],
+      "@common/*": [
+        "src/common/*"
+      ],
+      "@models/*": [
+        "migrations/models/*"
+      ],
+    }
+  }
+}
