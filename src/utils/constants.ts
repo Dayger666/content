@@ -9,6 +9,7 @@ export enum errorMessages {
   IMAGE_NOT_CREATED = 'Image has not been created',
   ACCESS_TOKEN_INVALID = 'Access token missing, or invalid',
   NO_ACCESS = 'User is not authorized to access this resource',
+  LOCATION_NOT_CREATED = 'Location has not been created',
 }
 
 export enum messages {
